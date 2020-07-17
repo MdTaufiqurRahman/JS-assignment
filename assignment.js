@@ -10,11 +10,11 @@ function feetToMile(feet){
 
 //woodCalculator
 function woodCalculator(chair,table,bed){
-    if(chair<0 || table<0 || bed<0){
-        console.log("Value can't be negative");
-        return;
-    }
-    return chair + (table*3) + (bed*5);
+    let chairCount=chair*1;
+    let tableCount=table*3;
+    let bedCount=bed*5;
+    let total=chairCount+tableCount+bedCount;
+    return total;
 }
 
 
