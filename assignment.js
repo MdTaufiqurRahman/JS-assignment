@@ -1,11 +1,10 @@
 //feetToMile
 function feetToMile(feet){
-    if(feet<0){
-        console.log("Value can't be negative");
-        return;
-    }
-    return feet/5280;
+   let mile=feet/5280;
+   return mile;
 }
+let result=feetToMile(5280);
+console.log(result);
 
 
 //woodCalculator
