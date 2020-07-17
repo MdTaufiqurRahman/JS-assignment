@@ -1,10 +1,8 @@
 //feetToMile
 function feetToMile(feet){
-   let mile=feet/5280;
+   let mile=feet/5280;     //1mile=5280 feet
    return mile;
 }
-let result=feetToMile(5280);
-console.log(result);
 
 
 //woodCalculator
